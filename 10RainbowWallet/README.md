@@ -1,0 +1,1 @@
+RainbowKit is a [React](https://reactjs.org/) library that makes it easy to add wallet connection to your dapp. It's intuitive, responsive and customizable.
