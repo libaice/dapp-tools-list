@@ -1,0 +1,6 @@
+# What is Reth?
+
+[Reth](https://github.com/paradigmxyz/reth) (short for Rust Ethereum, [pronunciation](https://twitter.com/kelvinfichter/status/1597653609411268608)) is a new Ethereum full-node implementation focused on being user-friendly, modular, fast, and efficient. Reth is an [execution client](https://hackmd.io/@n0ble/the-merge-terminology) compatible with all Ethereum consensus client implementations that support the [Engine API](https://github.com/ethereum/execution-apis/blob/main/src/engine/specification.md). As a full Ethereum node, Reth will allow users to sync the complete Ethereum blockchain from genesis and interact with it (and its historical state, if in archive mode) once synced.
+
+We are building Reth to accommodate a broad user base, including stakers, hobbyists, RPC node operators, bridges, MEV searchers, and even L2s (e.g., Optimism/Arbitrum) or other Ethereum-adjacent projects (e.g., Polygon, BSC, Avalanche, Fantom etc.). These users often have diverse requirements (e.g., hobbyists and stakers want nodes that work on cheap hardware, while RPC node operators have access to expensive disks and cloud snapshots). Reth does not attempt to solve all requirements at once. Instead, we are committed to creating a configurable node that allows users to explore the tradeoff space based on their needs.
+
